@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="598dp"
+        android:layout_weight="3"
+        android:background="@drawable/back_book" />
+
+    <RelativeLayout
+        android:id="@+id/rel_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:clipToOutline="true">
+
+        <TextView
+            android:id="@+id/match_the_c"
+            android:layout_width="wrap_content"
+            android:layout_height="177dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="169dp"
+            android:fontFamily="@font/oswald_medium"
+            android:gravity="center"
+            android:lineSpacingExtra="-24sp"
+            android:text="@string/match_the_c"
+            android:textAppearance="@style/match_the_c" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="68dp"
+            android:backgroundTint="@color/red"
+            android:baselineAligned="false"
+            android:text="@string/play"
+            android:textColor="@color/white"
+            android:theme="@style/play" />
+
+    </RelativeLayout>
+</LinearLayout>

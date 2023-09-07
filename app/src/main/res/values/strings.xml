@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">
+        My Application
+    </string>
+
+    <string name="match_the_c">
+        match the flag by country name
+    </string>
+
+    <string name="play">
+        play
+    </string>
+
+</resources>
